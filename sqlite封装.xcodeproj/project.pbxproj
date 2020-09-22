@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AA19D42463AAAD009E4BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA19D32463AAAD009E4BDA /* AppDelegate.m */; };
+		04AA19D72463AAAD009E4BDA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA19D62463AAAD009E4BDA /* SceneDelegate.m */; };
+		04AA19DA2463AAAD009E4BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA19D92463AAAD009E4BDA /* ViewController.m */; };
+		04AA19DD2463AAAD009E4BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA19DB2463AAAD009E4BDA /* Main.storyboard */; };
+		04AA19DF2463AAB3009E4BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA19DE2463AAB3009E4BDA /* Assets.xcassets */; };
+		04AA19E22463AAB3009E4BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA19E02463AAB3009E4BDA /* LaunchScreen.storyboard */; };
+		04AA19E52463AAB3009E4BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA19E42463AAB3009E4BDA /* main.m */; };
+		04AA19EE2463ACFD009E4BDA /* FLYSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA19ED2463ACFD009E4BDA /* FLYSqliteTool.m */; };
+		04AA1AD02463F980009E4BDA /* sqlite__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1ACF2463F980009E4BDA /* sqlite__Tests.m */; };
+		04AA1AD82463F9AD009E4BDA /* FLYSqliteToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1AD72463F9AD009E4BDA /* FLYSqliteToolTest.m */; };
+		04AA1ADB24650B79009E4BDA /* FLYStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1ADA24650B78009E4BDA /* FLYStudent.m */; };
+		04AA1ADE2465227A009E4BDA /* FLYSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1ADD2465227A009E4BDA /* FLYSqliteModelTool.m */; };
+		04AA1AE124652755009E4BDA /* FLYStudent.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04AA1AE024652755009E4BDA /* FLYStudent.plist */; };
+		04AA1AE424652CCE009E4BDA /* FLYModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1AE324652CCE009E4BDA /* FLYModelTool.m */; };
+		04AA1AE6246535D1009E4BDA /* FLYModelToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1AE5246535D1009E4BDA /* FLYModelToolTest.m */; };
+		04AA1AEA24667EA3009E4BDA /* FLYTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1AE924667EA2009E4BDA /* FLYTableTool.m */; };
+		04AA1AEC24692FF9009E4BDA /* FLYTableToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA1AEB24692FF8009E4BDA /* FLYTableToolTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AA1AD22463F980009E4BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AA19C72463AAAD009E4BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AA19CE2463AAAD009E4BDA;
+			remoteInfo = "sqlite封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AA19CF2463AAAD009E4BDA /* sqlite封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sqlite封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA19D22463AAAD009E4BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AA19D32463AAAD009E4BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AA19D52463AAAD009E4BDA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		04AA19D62463AAAD009E4BDA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		04AA19D82463AAAD009E4BDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04AA19D92463AAAD009E4BDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04AA19DC2463AAAD009E4BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AA19DE2463AAB3009E4BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AA19E12463AAB3009E4BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AA19E32463AAB3009E4BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA19E42463AAB3009E4BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AA19EC2463ACFD009E4BDA /* FLYSqliteTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYSqliteTool.h; sourceTree = "<group>"; };
+		04AA19ED2463ACFD009E4BDA /* FLYSqliteTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYSqliteTool.m; sourceTree = "<group>"; };
+		04AA1ACD2463F980009E4BDA /* sqlite封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sqlite封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA1ACF2463F980009E4BDA /* sqlite__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqlite__Tests.m; sourceTree = "<group>"; };
+		04AA1AD12463F980009E4BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA1AD72463F9AD009E4BDA /* FLYSqliteToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYSqliteToolTest.m; sourceTree = "<group>"; };
+		04AA1AD924650B78009E4BDA /* FLYStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYStudent.h; sourceTree = "<group>"; };
+		04AA1ADA24650B78009E4BDA /* FLYStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYStudent.m; sourceTree = "<group>"; };
+		04AA1ADC2465227A009E4BDA /* FLYSqliteModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYSqliteModelTool.h; sourceTree = "<group>"; };
+		04AA1ADD2465227A009E4BDA /* FLYSqliteModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYSqliteModelTool.m; sourceTree = "<group>"; };
+		04AA1AE024652755009E4BDA /* FLYStudent.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FLYStudent.plist; sourceTree = "<group>"; };
+		04AA1AE224652CCE009E4BDA /* FLYModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYModelTool.h; sourceTree = "<group>"; };
+		04AA1AE324652CCE009E4BDA /* FLYModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYModelTool.m; sourceTree = "<group>"; };
+		04AA1AE5246535D1009E4BDA /* FLYModelToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYModelToolTest.m; sourceTree = "<group>"; };
+		04AA1AE724654DA7009E4BDA /* FLYModelProtocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYModelProtocal.h; sourceTree = "<group>"; };
+		04AA1AE824667EA2009E4BDA /* FLYTableTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLYTableTool.h; sourceTree = "<group>"; };
+		04AA1AE924667EA2009E4BDA /* FLYTableTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYTableTool.m; sourceTree = "<group>"; };
+		04AA1AEB24692FF8009E4BDA /* FLYTableToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLYTableToolTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AA19CC2463AAAD009E4BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1ACA2463F980009E4BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AA19C62463AAAD009E4BDA = {
+			isa = PBXGroup;
+			children = (
+				04AA19D12463AAAD009E4BDA /* sqlite封装 */,
+				04AA1ACE2463F980009E4BDA /* sqlite封装Tests */,
+				04AA19D02463AAAD009E4BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AA19D02463AAAD009E4BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AA19CF2463AAAD009E4BDA /* sqlite封装.app */,
+				04AA1ACD2463F980009E4BDA /* sqlite封装Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AA19D12463AAAD009E4BDA /* sqlite封装 */ = {
+			isa = PBXGroup;
+			children = (
+				04AA19D22463AAAD009E4BDA /* AppDelegate.h */,
+				04AA19D32463AAAD009E4BDA /* AppDelegate.m */,
+				04AA19D52463AAAD009E4BDA /* SceneDelegate.h */,
+				04AA19D62463AAAD009E4BDA /* SceneDelegate.m */,
+				04AA19EB2463ACC2009E4BDA /* Classes */,
+				04AA1ADF2465272F009E4BDA /* Model */,
+				04AA19D82463AAAD009E4BDA /* ViewController.h */,
+				04AA19D92463AAAD009E4BDA /* ViewController.m */,
+				04AA19DB2463AAAD009E4BDA /* Main.storyboard */,
+				04AA19DE2463AAB3009E4BDA /* Assets.xcassets */,
+				04AA19E02463AAB3009E4BDA /* LaunchScreen.storyboard */,
+				04AA19E32463AAB3009E4BDA /* Info.plist */,
+				04AA19E42463AAB3009E4BDA /* main.m */,
+			);
+			path = "sqlite封装";
+			sourceTree = "<group>";
+		};
+		04AA19EB2463ACC2009E4BDA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04AA1ADC2465227A009E4BDA /* FLYSqliteModelTool.h */,
+				04AA1ADD2465227A009E4BDA /* FLYSqliteModelTool.m */,
+				04AA19EC2463ACFD009E4BDA /* FLYSqliteTool.h */,
+				04AA19ED2463ACFD009E4BDA /* FLYSqliteTool.m */,
+				04AA1AE224652CCE009E4BDA /* FLYModelTool.h */,
+				04AA1AE324652CCE009E4BDA /* FLYModelTool.m */,
+				04AA1AE824667EA2009E4BDA /* FLYTableTool.h */,
+				04AA1AE924667EA2009E4BDA /* FLYTableTool.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		04AA1ACE2463F980009E4BDA /* sqlite封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04AA1ACF2463F980009E4BDA /* sqlite__Tests.m */,
+				04AA1AD72463F9AD009E4BDA /* FLYSqliteToolTest.m */,
+				04AA1AE5246535D1009E4BDA /* FLYModelToolTest.m */,
+				04AA1AEB24692FF8009E4BDA /* FLYTableToolTest.m */,
+				04AA1AD12463F980009E4BDA /* Info.plist */,
+			);
+			path = "sqlite封装Tests";
+			sourceTree = "<group>";
+		};
+		04AA1ADF2465272F009E4BDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04AA1AD924650B78009E4BDA /* FLYStudent.h */,
+				04AA1ADA24650B78009E4BDA /* FLYStudent.m */,
+				04AA1AE724654DA7009E4BDA /* FLYModelProtocal.h */,
+				04AA1AE024652755009E4BDA /* FLYStudent.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AA19CE2463AAAD009E4BDA /* sqlite封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA19E82463AAB3009E4BDA /* Build configuration list for PBXNativeTarget "sqlite封装" */;
+			buildPhases = (
+				04AA19CB2463AAAD009E4BDA /* Sources */,
+				04AA19CC2463AAAD009E4BDA /* Frameworks */,
+				04AA19CD2463AAAD009E4BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sqlite封装";
+			productName = "sqlite封装";
+			productReference = 04AA19CF2463AAAD009E4BDA /* sqlite封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AA1ACC2463F980009E4BDA /* sqlite封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA1AD42463F980009E4BDA /* Build configuration list for PBXNativeTarget "sqlite封装Tests" */;
+			buildPhases = (
+				04AA1AC92463F980009E4BDA /* Sources */,
+				04AA1ACA2463F980009E4BDA /* Frameworks */,
+				04AA1ACB2463F980009E4BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AA1AD32463F980009E4BDA /* PBXTargetDependency */,
+			);
+			name = "sqlite封装Tests";
+			productName = "sqlite封装Tests";
+			productReference = 04AA1ACD2463F980009E4BDA /* sqlite封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AA19C72463AAAD009E4BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = fly;
+				TargetAttributes = {
+					04AA19CE2463AAAD009E4BDA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					04AA1ACC2463F980009E4BDA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 04AA19CE2463AAAD009E4BDA;
+					};
+				};
+			};
+			buildConfigurationList = 04AA19CA2463AAAD009E4BDA /* Build configuration list for PBXProject "sqlite封装" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AA19C62463AAAD009E4BDA;
+			productRefGroup = 04AA19D02463AAAD009E4BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AA19CE2463AAAD009E4BDA /* sqlite封装 */,
+				04AA1ACC2463F980009E4BDA /* sqlite封装Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AA19CD2463AAAD009E4BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA1AE124652755009E4BDA /* FLYStudent.plist in Resources */,
+				04AA19E22463AAB3009E4BDA /* LaunchScreen.storyboard in Resources */,
+				04AA19DF2463AAB3009E4BDA /* Assets.xcassets in Resources */,
+				04AA19DD2463AAAD009E4BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1ACB2463F980009E4BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AA19CB2463AAAD009E4BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA1ADE2465227A009E4BDA /* FLYSqliteModelTool.m in Sources */,
+				04AA19EE2463ACFD009E4BDA /* FLYSqliteTool.m in Sources */,
+				04AA19DA2463AAAD009E4BDA /* ViewController.m in Sources */,
+				04AA1AE424652CCE009E4BDA /* FLYModelTool.m in Sources */,
+				04AA19D42463AAAD009E4BDA /* AppDelegate.m in Sources */,
+				04AA19E52463AAB3009E4BDA /* main.m in Sources */,
+				04AA19D72463AAAD009E4BDA /* SceneDelegate.m in Sources */,
+				04AA1AEA24667EA3009E4BDA /* FLYTableTool.m in Sources */,
+				04AA1ADB24650B79009E4BDA /* FLYStudent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AA1AC92463F980009E4BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AA1AE6246535D1009E4BDA /* FLYModelToolTest.m in Sources */,
+				04AA1AD02463F980009E4BDA /* sqlite__Tests.m in Sources */,
+				04AA1AEC24692FF9009E4BDA /* FLYTableToolTest.m in Sources */,
+				04AA1AD82463F9AD009E4BDA /* FLYSqliteToolTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AA1AD32463F980009E4BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AA19CE2463AAAD009E4BDA /* sqlite封装 */;
+			targetProxy = 04AA1AD22463F980009E4BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AA19DB2463AAAD009E4BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA19DC2463AAAD009E4BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AA19E02463AAB3009E4BDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA19E12463AAB3009E4BDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AA19E62463AAB3009E4BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04AA19E72463AAB3009E4BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AA19E92463AAB3009E4BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2638M5H9L6;
+				INFOPLIST_FILE = "sqlite封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fly.sqlite--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AA19EA2463AAB3009E4BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2638M5H9L6;
+				INFOPLIST_FILE = "sqlite封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fly.sqlite--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04AA1AD52463F980009E4BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2638M5H9L6;
+				INFOPLIST_FILE = "sqlite封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fly.sqlite--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqlite封装.app/sqlite封装";
+			};
+			name = Debug;
+		};
+		04AA1AD62463F980009E4BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2638M5H9L6;
+				INFOPLIST_FILE = "sqlite封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fly.sqlite--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqlite封装.app/sqlite封装";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AA19CA2463AAAD009E4BDA /* Build configuration list for PBXProject "sqlite封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA19E62463AAB3009E4BDA /* Debug */,
+				04AA19E72463AAB3009E4BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA19E82463AAB3009E4BDA /* Build configuration list for PBXNativeTarget "sqlite封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA19E92463AAB3009E4BDA /* Debug */,
+				04AA19EA2463AAB3009E4BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA1AD42463F980009E4BDA /* Build configuration list for PBXNativeTarget "sqlite封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA1AD52463F980009E4BDA /* Debug */,
+				04AA1AD62463F980009E4BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AA19C72463AAAD009E4BDA /* Project object */;
+}
